@@ -1,0 +1,21 @@
+{
+  "name": "api_project_sena",
+  "version": "0.0.1",
+  "description": "APIS REST del proyecto de AdminHotel del Servicio Nacional de Aprendizaje SENA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Hernando Johao Ramirez Palomino",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
